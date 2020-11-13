@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.head-tag {
+    float: right;
+}
+
+.head-tag a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    /* color: snow; */
+    color: white;
+    border: 4px, solid, white;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.head-tag a:hover {
+    background-color: snow;
+    color: steelblue;
+    transition: 0.4s ease-in-out;
+}
+
+.head-tag :active {
+    background-color: snow;
+    color: steelblue;
+}
+
+.image-container-home {
+    display: grid;
+}
+
+.top-nav,
+.cover-image,
+.text-block {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.image-property {
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 1900px;
+    height: 960px;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.text-block {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    background-color: rgb(135, 206, 235, 0.5);
+    color: white;
+    border-radius: 40px 100px 40px;
+    max-width: 550px;
+    height: 400px;
+}
+
+.text-block h4,
+p {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#multi-item-carousal {
+    margin-top: 50px;
+}
