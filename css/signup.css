@@ -1,7 +1,12 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
+/* 
+margin{
+  padding: 0px;
+  margin: 0px;
+} */
 
 body{
     background-position: center;
@@ -11,8 +16,7 @@ body{
 }
 
 header{
-    opacity: 0.7;
-    background-color:steelblue;
+    background-color: rgb(135, 206, 235,0.5);
     height: 6em;
 }
 
