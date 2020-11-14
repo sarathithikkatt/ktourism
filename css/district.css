@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
+}
+
+.container {
+    background-color: rgb(0, 0, 0, 0.4);
+    padding: 40px;
+    padding-bottom: 10px;
+}

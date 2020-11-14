@@ -1,49 +1,42 @@
-.mymargin {
+* {
     padding: 0px;
     margin: 0px;
 }
 
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.image-container-home {
+    display: grid;
+}
+
+.top-nav,
+.cover-image,
+.text-block {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.image-property {
+    grid-column: 1;
+    grid-row: 1;
+    object-fit: fill;
+    object-position: center;
+    width: 1900px;
+    height: 960px;
+    border-radius: 0px 0px 100px 100px;
+}
+
 .container {
-    height: max-content;
-    width: max-content;
-}
-
-.login {
-    margin: 30px;
-    margin-top: 60px;
-    background-color: rgb(26, 54, 91);
-    background-blend-mode: soft-light;
-    padding: 20px;
-    opacity: 0.8;
+    max-width: 500px;
     color: white;
-}
-
-.login h2 {
-    text-align: center;
-}
-
-.credential input {
-    height: 1.5em;
-}
-
-.login #loginbutton {
-    opacity: 0.5;
-    width: 100%;
-    height: 1.8em;
-    color: white;
-    background-color: rgb(22, 47, 80);
-    border: 1px solid white
-}
-
-.login #loginbutton:hover {
-    opacity: 1;
-    background-color: rgb(22, 47, 80);
-    /* border: 1px solid rgb(22, 47, 80); */
-    /* background-color: snow; */
-    color: white;
-    transition: 0.3s ease-in-out;
-}
-
-.a .signup {
-    color: seashell;
+    background-color: rgb(144, 238, 144, 0.5);
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px 40px;
+    margin-top: 110px;
 }

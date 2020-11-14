@@ -3,31 +3,6 @@
     margin: 0px;
 }
 
-.head-tag {
-    float: right;
-}
-
-.head-tag a {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: none;
-    /* color: snow; */
-    color: white;
-    border: 4px, solid, white;
-    padding: 20px;
-    margin-right: 10px;
-}
-
-.head-tag a:hover {
-    background-color: snow;
-    color: steelblue;
-    transition: 0.4s ease-in-out;
-}
-
-.head-tag :active {
-    background-color: snow;
-    color: steelblue;
-}
-
 .image-container-home {
     display: grid;
 }
@@ -69,4 +44,13 @@ p {
 
 #multi-item-carousal {
     margin-top: 50px;
+    padding: 50px;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 100px 100px 100px 100px;
+}
+
+#experience-button {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
 }
