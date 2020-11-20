@@ -44,26 +44,31 @@ function passstrenght() {
         passstrenght = (passstrenght + 1) % 3;
         strenght.innerHTML = str[passstrenght];
         strenght.style.color = color[passstrenght];
+        pass1.style.color = color[passstrenght];
         return true;
     } else if (str3.test(pass1.value)) {
         passstrenght = (passstrenght + 1) % 3;
         strenght.innerHTML = str[passstrenght];
         strenght.style.color = color[passstrenght];
+        pass1.style.color = color[passstrenght];
         return true;
     } else if (str2.test(pass1.value)) {
         passstrenght = (passstrenght + 1) % 3;
         strenght.innerHTML = str[passstrenght];
         strenght.style.color = color[passstrenght];
+        pass1.style.color = color[passstrenght];
         return true;
     } else if (passexp.test(pass1.value)) {
         passstrenght = 2;
         strenght.innerHTML = str[passstrenght];
         strenght.style.color = color[passstrenght];
+        pass1.style.color = color[passstrenght];
         return true;
     } else {
         pass1b = false;
         strenght.innerHTML = str[passstrenght];
         strenght.style.color = color[passstrenght];
+        pass1.style.color = color[passstrenght];
         return false;
     }
 }
